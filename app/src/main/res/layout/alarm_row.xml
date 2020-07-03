@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="2dp"
+    android:layout_centerVertical="true"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/s_time"
+            android:padding="10dp"
+            android:textSize="30dp"
+            android:layout_centerVertical="true"
+            android:text="6:00 am"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <Switch
+            android:layout_gravity="center_vertical|right"
+            android:layout_centerVertical="true"
+            android:id="@+id/s_alarm"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Switch>
+</androidx.cardview.widget.CardView>
